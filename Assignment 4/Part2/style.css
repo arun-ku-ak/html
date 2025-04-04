@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  #gallery {
+    position: relative;
+    margin: 0;
+    padding: 0;
+     }
+
+#main-image {
+    margin: 0;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  #btn{
+   position: absolute;
+    top: 10px;
+    left: 10px;
+   z-index: 10; 
+    background-color: rgba(102, 102, 102, 0.486);
+     color: white;
+     border: 1.5px solid rgb(0, 0, 0);
+     cursor: pointer;
+  }
+  
+  
+  .thumbnail-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .thumbnail.light {
+    filter: brightness(1.2);
+  }
+  
+  .thumbnail.dark {
+    filter: brightness(0.8);
+  }

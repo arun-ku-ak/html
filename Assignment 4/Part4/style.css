@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute;
+    font-size: 24px;
+    filter: blur(1.4px);
+    text-align: center;
+    color: #fff;
+    margin: 2px 0;
+    right: 0px;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  p {
+    position: absolute;
+    margin: 0;
+    top: 35px;
+    right: 5px;
+    color: #aaa;
+    font-size: 18px;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
